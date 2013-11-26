@@ -1,0 +1,9 @@
+{"ts":1385073695294,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1385073743603,"patch":[[{"diffs":[[1,"// Load `*.js` under current directory as properties\n//  i.e., `User.js` will become `exports['User']` or `exports.User`\nrequire('fs').readdirSync(__dirname + '/').forEach(function(file) {\n  if (file.match(/.+\\.js/g) !== null && file !== 'index.js') {\n    var name = file.replace('.js', '');\n    exports[name] = require('./' + file);\n  }\n});"]],"start1":0,"start2":0,"length1":0,"length2":341}]],"length":341,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1385403846486,"patch":[[{"diffs":[[0,"quire('."],[1,"."],[0,"/' + fil"]],"start1":314,"start2":314,"length1":16,"length2":17}]],"length":342,"saved":false}
+{"ts":1385403889777,"patch":[[{"diffs":[[0,"quire('."],[-1,"."],[0,"/' + fil"]],"start1":314,"start2":314,"length1":17,"length2":16}]],"length":341,"saved":false}
+{"ts":1385404077341,"patch":[[{"diffs":[[0,"uire('./"],[1,"lib/auth/"],[0,"' + file"]],"start1":315,"start2":315,"length1":16,"length2":25}]],"length":350,"saved":false}
+{"ts":1385404096463,"patch":[[{"diffs":[[0,"quire('."],[1,"."],[0,"/lib/aut"]],"start1":314,"start2":314,"length1":16,"length2":17}]],"length":351,"saved":false}
+{"ts":1385404128935,"patch":[[{"diffs":[[0,"'../"],[-1,"lib/auth"],[1,"../.."],[0,"/' +"]],"start1":320,"start2":320,"length1":16,"length2":13}]],"length":348,"saved":false}
+{"ts":1385404171619,"patch":[[{"diffs":[[0,"e('."],[-1,"./../.."],[1,"/lib/auth"],[0,"/' +"]],"start1":318,"start2":318,"length1":15,"length2":17}]],"length":350,"saved":false}
+{"ts":1385404212209,"patch":[[{"diffs":[[0,"('./"],[-1,"lib/auth/"],[0,"' + "]],"start1":319,"start2":319,"length1":17,"length2":8}]],"length":341,"saved":false}

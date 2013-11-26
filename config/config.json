@@ -1,0 +1,26 @@
+{
+    "github":{
+        "GITHUB_CLIENT_ID":"1e7391c3c13259ed60c3",
+        "GITHUB_CLIENT_SECRET":"6637f39a52ca2bab18a282fb49e9331c561ec35c",
+        "PERMITTED_USERS":"false",
+        "PERMITTED_USERS":["karnith", "user2"]
+    },
+    "ldap":{
+        "url":"ldap://localhost:389",
+        "adminDn":"cn=root",
+        "adminPassword":"password",
+        "searchBase":"o=users,o=example.com",
+        "searchFilter":"(uid={{username}})",
+        "searchAttributes":"",
+        "tlsOptions":{
+            "cert":""
+        }
+    },
+    "server":{
+        "hstName":"ip or fqdn",
+        "svrPort":"3000"
+    },
+    "userWksp":{
+        "timeOut":"900000"
+    }
+}
