@@ -21,3 +21,6 @@ using the [cloud9ide](https://github.com/ajaxorg/cloud9) for local "in house" pr
 **This project:** [MIT License](http://opensource.org/licenses/MIT)
 **Cloud9hub:** [MIT License](http://opensource.org/licenses/MIT)
 **Cloud9 itself:** [GPL](http://www.gnu.org/licenses/gpl.html)
+
+###Warning
+This project is currently alpha state and is currently under heavy development..
