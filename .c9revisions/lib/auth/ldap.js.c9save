@@ -1,2 +1,0 @@
-{"ts":1385068284131,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1385068335581,"patch":[[{"diffs":[[1,"exports.ldap = function(username, password){\n};"]],"start1":0,"start2":0,"length1":0,"length2":47}]],"length":47,"saved":false}

@@ -1,7 +1,0 @@
-{"ts":1385063562774,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1385063674257,"patch":[[{"diffs":[[1,"var server = require(\"\"),\n    router = require(\"\"),\n    handlers = require(\"\");"]],"start1":0,"start2":0,"length1":0,"length2":79}]],"length":79,"saved":false}
-{"ts":1385065734116,"patch":[[{"diffs":[[0,"rver = require(\""],[1,"./lib/app.js"],[0,"\"),\n    router ="]],"start1":6,"start2":6,"length1":32,"length2":44},{"diffs":[[0,"ire(\"\");"],[1,"\n    \nserver.start();"]],"start1":83,"start2":83,"length1":8,"length2":29}]],"length":112,"saved":false}
-{"ts":1385066638733,"patch":[[{"diffs":[[0,"js\")"],[-1,",\n    router = require(\"\"),\n    handlers = require(\"\")"],[0,";\n  "]],"start1":32,"start2":32,"length1":62,"length2":8}]],"length":58,"saved":false}
-{"ts":1385066672742,"patch":[[{"diffs":[[0,"app.js\")"],[1,",\n    router = require(\"\"),\n    handlers = require(\"\")"],[0,";\n    \ns"]],"start1":28,"start2":28,"length1":16,"length2":70}]],"length":112,"saved":false}
-{"ts":1385066761720,"patch":[[{"diffs":[[0,"js\")"],[-1,",\n    router = require(\"\"),\n    handlers = require(\"\")"],[0,";\n  "]],"start1":32,"start2":32,"length1":62,"length2":8}]],"length":58,"saved":false}
-{"contributors":[],"silentsave":false,"ts":1385074983339,"patch":[[{"diffs":[[0,"js\")"],[-1,";"],[1,","],[0,"\n    "],[1,"auth = require(\"./lib/auth\");\n"],[0,"\nser"]],"start1":32,"start2":32,"length1":14,"length2":44}]],"length":88,"saved":false}
